@@ -22,13 +22,13 @@ int fib(int n)
 
 Above is a simple recursive solution where we are computing fib(2) many times.
 
-And below is the optimised solution (using DP
+And below is the optimised solution using Dynamic Programming.
 
 
 ```c++
 int lookup[n+1];
 
-for(int i =0; i<=n; i++)
+for(int i=0; i<=n; i++)
 {    
     lookup[i] = -1;
 }
